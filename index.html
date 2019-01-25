@@ -8,88 +8,89 @@
     <link href="style/main.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="/">the offer</a></li>
-          <li><a href="/">portfolio</a></li>
-          <li><a href="/">about us</a></li>
-          <li><a href="/">contact</a></li>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="/" class="nav__link">the offer</a></li>
+          <li><a href="/" class="nav__link">portfolio</a></li>
+          <li><a href="/" class="nav__link">about us</a></li>
+          <li><a href="/" class="nav__link">contact</a></li>
         </ul>
       </nav>
-      <section>
-        <h1>
-          hello!
-          <p>
+      <section class="header__partial--big">
+        <span class="header__decor--big">H</span>
+        <h1 class="header__heading">hello!</h1>
+          <p class="header__sub-heading">
             <span>We are creative agency based in Warsaw, Poland</span>
             <span>Creating projects for clients all over the world</span>
           </p>
-        </h1>
       </section>
-      <section>
-        <p>
+      <section class="header__partial--small">
+        <p class="header__sub-heading-accent1">
+          <span class="header__decor--big">D</span>
           <span>Good design is our domain</span>
           <span>We work in multidisciplinary teams.</span>
         </p>
       </section>
-      <section>
-        <p>
+      <section class="header__partial--small">
+        <p class="header__sub-heading--accent2">
+          <span class="header__decor--big">P</span>
           <span>We always select varied projects,</span>
           <span>to step out of our comfort zone.</span>
         </p>
       </section>
     </header>
-    <a href="#">scroll down to find out more about our studio</a>
-    <section class="works">
-      <h2>works</h2>
+    <a href="#" class="main-area-link">scroll down to find out more about our studio</a>
+    <section class="main-section--projects">
+      <h2 class="projects__heading">works</h2>
       <article class="project">
-          <img src="assets/pineapp.jpg" alt="pineappple image">
-          <strong>branding & web</strong>
-          <section class="project-description">
-            <h3>pineapp.</h3>
-            <p>
+          <img src="assets/pineapp.jpg" class="project__photo" alt="pineappple image">
+          <strong class="project__category">branding & web</strong>
+          <section class="project__container">
+            <h3 class="project__name">pineapp.</h3>
+            <p class="project__description">
               <span>Period: March-April 2016</span>
               <span>Team: John (UI), Edwin (UX), Jessica (Front-end)</span>
             </p>
-            <a href="/">visit the website</a>
+            <a href="/" class="project__link">visit the website</a>
           </section>
         </article>
         <article class="project">
-          <img src="assets/healthydining.jpg" alt="broccoli image">
-          <strong>branding & mobile</strong>
-          <section class="project-description">
-            <h3>healty dining.</h3>
-            <p>
+          <img src="assets/healthydining.jpg" class="project__photo" alt="broccoli image">
+          <strong class="project__category">branding & mobile</strong>
+          <section class="project__container">
+            <h3 class="project__name">healty dining.</h3>
+            <p class="project__description">
               <span>Period: March-April 2016</span>
               <span>Team: John (UI), Edwin (UX), Jessica (Front-end)</span>
             </p>
-            <a href="/">visit the website</a>
+            <a href="/" class="project__link">visit the website</a>
           </section>
         </article>
         <article class="project">
-          <img src="assets/smartcity.jpg" alt="building image">
+          <img src="assets/smartcity.jpg" class="project__photo" alt="building image">
           <strong>branding & web</strong>
-          <section class="project-description">
-            <h3>smart city.</h3>
-            <p>
+          <section class="project__container">
+            <h3 class="project__name">smart city.</h3>
+            <p class="project__description">
               <span>Period: March-April 2016</span>
               <span>Team: John (UI), Edwin (UX), Jessica (Front-end)</span>
             </p>
-            <a href="/">visit the website</a>
+            <a href="/" class="project__link">visit the website</a>
           </section>
         </article>
     </section>
-    <section class="team">
-      <h2>team</h2>
-      <figure class="team-image">
-        <img src="assets/team.jpg" alt="team members photo">
-        <figcaption>
-         <span>Meet our creative team:</span>
-         <span>Markus, Elisabeth, George & Micheal.</span>
+    <section class="main-section__team">
+      <h2 class="team__heading">team</h2>
+      <figure class="team__photo-container">
+        <img src="assets/team.jpg" class="team__photo" alt="team members photo">
+        <figcaption class="team__people">
+          <span>Meet our creative team:</span>
+          <span>Markus, Elisabeth, George & Micheal.</span>
         </figcaption>
       </figure>
       <div class="team-description">
-        <h3>how we started</h3>
+        <h3 class="team__title">how we started</h3>
         <p>
           Whatever crucifix hexagon listicle keytar, blue bottle fap beard vinyl wayfarers tattooed.
           Viral direct trade meditation etsy venmo fingerstache. Post-ironic shabby chic try-hard,
@@ -110,29 +111,35 @@
             leggings scenester vape meditation offal blog thundercats semiotics chicharrones.
             Offal iPhone forage sustainable. Cronut irony chillwave poke celiac.
         </p>
-        <strong>Next level iceland blue bottle fingerstache:</strong>
-        <ul>
-          <li>hella ennui banh mi iPhone kitsch prism VHS marfa fixie</li>
-          <li>Typewriter direct trade shoreditch,small batch hexagon</li>
-          <li>Poutine jean shorts kale chips normcore.</li>
+        <strong class="team__values-title">Next level iceland blue bottle fingerstache:</strong>
+        <ul class="team__values-list">
+          <li class="team__values-list-item">hella ennui banh mi iPhone kitsch prism VHS marfa fixie</li>
+          <li class="team__values-list-item">Typewriter direct trade shoreditch,small batch hexagon</li>
+          <li class="team__values-list-item">Poutine jean shorts kale chips normcore.</li>
         </ul>
       </div>
     </section>
-    <section class="contact">
-      <h2>contact</h2>
-      <form>
-        <label for="name">name</label>
-        <input type="text" id="name">
-        <label for="email">e-mail</label>
-        <input type="email" id="email">
-        <label for="topic">topic</label>
-        <textarea id="topic"></textarea>
+    <section class="main-section--contact">
+      <h2 class="contact__heading">contact</h2>
+      <form class="contact__form">
+        <div class="form-field">
+          <label class="form-field__label" for="name">name</label>
+          <input class="form-field__input" type="text" id="name">
+        </div>
+        <div class="form-field">
+          <label class="form-field__label" for="name">e-mail</label>
+          <input class="form-field__input" type="text" id="e-mail">
+        </div>
+        <div class="form-field">
+          <label class="form-field__label" for="topic">topic</label>
+          <textarea class="form-field__textarea" id="topic"></textarea>
+        </div>
       </form>
-      <img src="assets/office.jpg" alt="Hello agency headquaters">
-      <div itemscope itemtype="http://schema.org/Organization">
+      <img src="assets/office.jpg" class="contact__office-photo" alt="Hello agency headquaters">
+      <div class="contact__office-info" itemscope itemtype="http://schema.org/Organization">
         <span>Our office is located in the heart of Warsaw</span>
         <span>Feel free to say hello!</span>
-        <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <div class="contact__addres-info" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
           <span itemprop="name">Hello Creative Agency</span>
           <span itemprop="streetAddress">Warsaw St. 23/21</span>
           <span itemprop="postalCode">03-323</span>
@@ -141,15 +148,35 @@
         </div>
       </div>
     </section>
-    <footer>
-      <span>social media</span>
-      <ul>
-        <li><a href="https://pinterest.com">Pinterest<img src="assets/pinterest.svg" aria-hidden="true"></a></li>
-        <li><a href="https://twitter.com">Twitter<img src="assets/twitter.svg" aria-hidden="true"></a></li>
-        <li><a href="https://facebook.com">Facebook<img src="assets/facebook.svg" aria-hidden="true"></a></li>
-        <li><a href="https://instagram.com">Instagram<img src="assets/instagram.svg" aria-hidden="true"></a></li>
+    <footer class="social-media footer__social-media">
+      <span slacc="social-media__heading">social media</span>
+      <ul class="social-media__list">
+        <li class="social-media__list-item">
+          <a href="https://pinterest.com" class="social-media__link">
+            Pinterest
+            <img src="assets/pinterest.svg" aria-hidden="true">
+          </a>
+        </li>
+        <li class="social-media__list-item">
+          <a href="https://twitter.com" class="social-media__link">
+            Twitter
+            <img src="assets/twitter.svg" aria-hidden="true">
+          </a>
+        </li>
+        <li class="social-media__list-item">
+          <a href="https://facebook.com" class="social-media__link">
+            Facebook
+            <img src="assets/facebook.svg" aria-hidden="true">
+          </a>
+        </li>
+        <li class="social-media__list-item">
+          <a href="https://instagram.com" class="social-media__link">
+            Instagram
+            <img src="assets/instagram.svg" aria-hidden="true">
+          </a>
+        </li>
       </ul>
-      <div itemscope itemtype="http://schema.org/Organization">
+      <div class="copyright" itemscope itemtype="http://schema.org/Organization">
         <span>designed with love by <span itemprop="name">The Awwwwesomes</span></span>
         <span><span itemprop="addressLocality">Warsaw</span>, 2016</span>
       </div>
