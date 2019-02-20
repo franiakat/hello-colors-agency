@@ -1,0 +1,12 @@
+.header {
+  margin-bottom: auto;
+  z-index: 2;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  padding: 20px 10px;
+}
