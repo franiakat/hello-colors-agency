@@ -1,0 +1,11 @@
+.header {
+  margin-bottom: auto;
+  z-index: 2;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 150px 20px 50px;
+}

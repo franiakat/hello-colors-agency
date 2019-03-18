@@ -1,0 +1,79 @@
+$base-font: 'Inconsolata', 'Courier New', monospace;
+$secondary-font: 'Prata', sans-serif, Arial, Helvetica;
+$decor-font: 'Brandon Grotesque Bold', Tahoma, Helvetica;
+
+body {
+  font-family: $base-font;
+  line-height: normal;
+  letter-spacing: normal;
+  color: $black;
+}
+
+.hero-section__heading {
+  font-family: $secondary-font;
+  font-size: 129px;
+  line-height: 0.7;
+  font-weight: 400;
+  color: $white;
+}
+
+.hero-section__decor {
+  font-family: $decor-font;
+  font-size: 337px;
+  line-height: 0.77;
+}
+
+.hero-section__decor--accent1 {
+  color: $dim-blue;
+}
+
+.hero-section__decor--accent2 {
+  color: $mint;
+}
+
+.hero-section__decor--accent3 {
+  color: $salmon;
+}
+
+.hero-section__decor--big {
+  font-size: 505px;
+  line-height: 0.74;
+}
+
+.hero-section__partial--accent1 {
+  color: $white;
+}
+
+.hero-section__partial--accent2 {
+  color: $dark-mint;
+}
+
+.hero-section__partial--accent3 {
+  color: $watermelon;
+}
+
+.hero-section__partial-content {
+  text-align: right;
+}
+
+.hero-section__sub-heading {
+  font-size: $font-size-xs;
+}
+
+.main-area-link {
+  font-size: $font-size-xs;
+  text-decoration: none;
+  text-align: center;
+  color: $dim-blue;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__link {
+  font-family: $secondary-font;
+  font-size: 19px;
+  text-decoration: none;
+  color: $light-mint;
+}

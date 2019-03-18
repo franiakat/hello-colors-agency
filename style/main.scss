@@ -1,0 +1,13 @@
+// Main style file
+//
+// imports
+
+@import './global/normalize';
+@import './config/colors';
+@import './config/variables';
+@import './config/fonts';
+
+@import './global/typography';
+
+@import './components/navigation';
+@import './components/hero';
