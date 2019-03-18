@@ -311,20 +311,20 @@ ul {
   font-display: swap;
   src: url("../assets/fonts/brandon.otf") format("opentype"); }
 body {
-  font-family: "Inconsolata", "Courier New", Courier, monospace;
+  font-family: "Inconsolata", "Courier New", monospace;
   line-height: normal;
   letter-spacing: normal;
   color: #000; }
 
 .hero-section__heading {
-  font-family: "Prata", sans;
+  font-family: "Prata", sans-serif, Arial, Helvetica;
   font-size: 129px;
   line-height: 0.7;
   font-weight: 400;
   color: #fff; }
 
 .hero-section__decor {
-  font-family: "Brandon Grotesque Bold", "Roboto";
+  font-family: "Brandon Grotesque Bold", Tahoma, Helvetica;
   font-size: 337px;
   line-height: 0.77; }
 
@@ -366,7 +366,7 @@ body {
   list-style: none; }
 
 .nav__link {
-  font-family: "Prata", sans;
+  font-family: "Prata", sans-serif, Arial, Helvetica;
   font-size: 19px;
   text-decoration: none;
   color: #75e3dd; }
@@ -379,8 +379,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 80%;
-  padding: 20px 10px; }
+  padding: 20px 150px 20px 50px; }
 
 .hero-section {
   display: flex;

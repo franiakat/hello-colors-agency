@@ -1,6 +1,6 @@
-$base-font: 'Inconsolata', 'Courier New', Courier, monospace;
-$secondary-font: 'Prata', sans;
-$decor-font: 'Brandon Grotesque Bold', 'Roboto';
+$base-font: 'Inconsolata', 'Courier New', monospace;
+$secondary-font: 'Prata', sans-serif, Arial, Helvetica;
+$decor-font: 'Brandon Grotesque Bold', Tahoma, Helvetica;
 
 body {
   font-family: $base-font;
@@ -57,11 +57,11 @@ body {
 }
 
 .hero-section__sub-heading {
-  font-size: 15px;
+  font-size: $font-size-xs;
 }
 
 .main-area-link {
-  font-size: 15px;
+  font-size: $font-size-xs;
   text-decoration: none;
   text-align: center;
   color: $dim-blue;
